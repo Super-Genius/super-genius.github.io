@@ -16,6 +16,14 @@
     "source": "https://gcs.gnus.ai/"
   },
   {
+    "title": "GNUS.ai Whitepaper v1.2",
+    "type": "White paper",
+    "area": "Distributed systems",
+    "url": "https://www.gnus.ai/whitepaper/",
+    "desc": "Official April 2024 GNUS.ai whitepaper covering distributed computing, the GNUS token model, and network design. Historical plans may differ from current documentation.",
+    "source": "https://docs.gnus.ai/about-gnus.ai/release-status/"
+  },
+  {
     "title": "DiSPNet: Architecture and Economic Superiority Analysis",
     "type": "Technical analysis",
     "area": "Distributed systems",
@@ -23,18 +31,11 @@
     "desc": "Illustrative architecture and cost analysis of distributed peer-to-peer inference."
   },
   {
-    "title": "SuperGenius White Paper",
-    "type": "White paper",
+    "title": "SuperGenius White Paper (historical)",
+    "type": "Historical white paper",
     "area": "Distributed systems",
     "url": "papers/SuperGenius-whitepaper.pdf",
-    "desc": "Design concepts for decentralized compute, peer-to-peer storage, and transaction verification."
-  },
-  {
-    "title": "Genius Tokens Whitepaper 1.0",
-    "type": "White paper",
-    "area": "Distributed systems",
-    "url": "papers/Genius-Tokens-Whitepaper-1.0.pdf",
-    "desc": "An earlier GNUS token and distributed computing white paper."
+    "desc": "Earlier SuperGenius design concepts for peer-to-peer compute, storage, and transaction verification."
   },
   {
     "title": "GSM Engineering Outcomes Paper",
@@ -111,6 +112,13 @@
     "url": "patents/US11451393-final-patent.pdf",
     "desc": "US granted patent, issued September 20, 2022. Local copy of the patent as issued.",
     "source": "https://patents.google.com/patent/US11451393B2/en"
+  },
+  {
+    "title": "Genius Tokens Whitepaper 1.0 (historical)",
+    "type": "Historical white paper",
+    "area": "Historical publications",
+    "url": "papers/Genius-Tokens-Whitepaper-1.0.pdf",
+    "desc": "Archived original token and distributed computing white paper, retained for reference. Superseded by GNUS.ai Whitepaper v1.2."
   },
   {
     "title": "High Dynamic Range Images (2004)",
