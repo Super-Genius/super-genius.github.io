@@ -111,5 +111,104 @@
     "url": "patents/US11451393-final-patent.pdf",
     "desc": "US granted patent, issued September 20, 2022. Local copy of the patent as issued.",
     "source": "https://patents.google.com/patent/US11451393B2/en"
+  },
+  {
+    "title": "High Dynamic Range Images (2004)",
+    "type": "Conference presentation",
+    "area": "Historical publications",
+    "url": "https://www.realistic3d.com/Documents/hdr.pdf",
+    "desc": "October 2004 Extreme Game Developers Expo presentation on high dynamic range images.",
+    "source": "https://www.kennethhurley.com/#publications"
+  },
+  {
+    "title": "Advanced Graphics Techniques Using Vertex and Pixel Shaders",
+    "type": "Unfinished paper",
+    "area": "Historical publications",
+    "url": "https://www.kennethhurley.com/#publications",
+    "desc": "Historical work-in-progress document on programmable graphics shaders."
+  },
+  {
+    "title": "Lighting Techniques Using Cube Maps (Game Programming Gems 3)",
+    "type": "Book chapter",
+    "area": "Historical publications",
+    "url": "https://www.kennethhurley.com/#publications",
+    "desc": "2002 published chapter coauthored with Dante Treglia and others. Bibliographic reference only."
+  },
+  {
+    "title": "Photorealistic Faces: 3DS Max How-To",
+    "type": "Technical paper",
+    "area": "Historical publications",
+    "url": "https://www.kennethhurley.com/#publications",
+    "desc": "Earlier guide to photorealistic face texture techniques, linked from the author's publication list."
+  },
+  {
+    "title": "Photorealistic Faces Using Vertex and Pixel Shaders (Direct3D ShaderX)",
+    "type": "Book chapter",
+    "area": "Historical publications",
+    "url": "https://www.kennethhurley.com/#publications",
+    "desc": "2002 chapter coauthored with Wolfgang Engel and others. Bibliographic reference only."
+  },
+  {
+    "title": "Extending Textures Beyond Simple Pixels (GDC 2002)",
+    "type": "Conference paper",
+    "area": "Historical publications",
+    "url": "https://www.realistic3d.com/Documents/gdc2002_textureuses.pdf",
+    "desc": "Game Developers Conference presentation, March 21, 2002, on texture-based graphics techniques."
+  },
+  {
+    "title": "Towards More Photorealistic Faces (2001)",
+    "type": "Conference presentation",
+    "area": "Historical publications",
+    "url": "https://www.kennethhurley.com/#publications",
+    "desc": "Xtreme Game Developers Conference, September 28, 2001."
+  },
+  {
+    "title": "Lighting Techniques for Games (2001)",
+    "type": "Conference presentation",
+    "area": "Historical publications",
+    "url": "https://www.kennethhurley.com/#publications",
+    "desc": "Xtreme Game Developers Conference, September 28, 2001."
+  },
+  {
+    "title": "Ultimate Performance for 3D Graphics (Intel Developer Forum, 2000)",
+    "type": "Conference presentation",
+    "area": "Historical publications",
+    "url": "https://www.kennethhurley.com/#publications",
+    "desc": "July 2000 presentation on maximizing graphics performance."
+  },
+  {
+    "title": "Cubemaps for GeForce 256: Dispelling the Myths (1999)",
+    "type": "Historical white paper",
+    "area": "Historical publications",
+    "url": "https://www.kennethhurley.com/#publications",
+    "desc": "December 1999 NVIDIA-era graphics document, listed for historical reference."
+  },
+  {
+    "title": "NVTUNE: NVIDIA Statistics Driver and Application (1999)",
+    "type": "Training presentation",
+    "area": "Historical publications",
+    "url": "https://www.kennethhurley.com/#publications",
+    "desc": "April 1999 NVIDIA-era performance tooling presentation, listed for historical reference."
+  },
+  {
+    "title": "Meta Disaster or Fifth Time's a Charm for VR/AR? (2022)",
+    "type": "Blog article",
+    "area": "Articles",
+    "url": "https://www.kennethhurley.com/blog/meta-disaster-or-5th-time-s-a-charm-for-vr-ar",
+    "desc": "A 2022 assessment of the commercial history of VR and AR."
+  },
+  {
+    "title": "The Failure of Athos Wearable Technology (2015)",
+    "type": "Blog article",
+    "area": "Articles",
+    "url": "https://www.kennethhurley.com/blog/the-failure-of-athos-wearable-technology",
+    "desc": "A 2015 critique of the market for sensor-equipped fitness clothing."
+  },
+  {
+    "title": "The Demise of Google Glass (2013)",
+    "type": "Blog article",
+    "area": "Articles",
+    "url": "https://www.kennethhurley.com/blog/the-demise-of-google-glass",
+    "desc": "An earlier piece on consumer demand for wearable display technology."
   }
 ]
