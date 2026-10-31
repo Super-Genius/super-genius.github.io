@@ -1,0 +1,115 @@
+[
+  {
+    "title": "SGFP4: Adaptive Dual-Mode Macroblock Quantization",
+    "type": "Research paper",
+    "area": "AI and GPU",
+    "url": "papers/sgfp4-arxiv-v2.pdf",
+    "desc": "GPU-oriented weight compression, adaptive blocks, low-bit inference, and verifiable decoding.",
+    "source": "https://gcs.gnus.ai/"
+  },
+  {
+    "title": "Genius Cognitive System — White Paper v1.1",
+    "type": "White paper",
+    "area": "AI and GPU",
+    "url": "papers/Genius-Cognitive-System-Whitepaper.pdf",
+    "desc": "Distributed AI architecture, expert language models, routing, private memory, and verification.",
+    "source": "https://gcs.gnus.ai/"
+  },
+  {
+    "title": "DiSPNet: Architecture and Economic Superiority Analysis",
+    "type": "Technical analysis",
+    "area": "Distributed systems",
+    "url": "papers/DiSPNet-Architecture-Economic-Superiority-Analysis.pdf",
+    "desc": "Illustrative architecture and cost analysis of distributed peer-to-peer inference."
+  },
+  {
+    "title": "SuperGenius White Paper",
+    "type": "White paper",
+    "area": "Distributed systems",
+    "url": "papers/SuperGenius-whitepaper.pdf",
+    "desc": "Design concepts for decentralized compute, peer-to-peer storage, and transaction verification."
+  },
+  {
+    "title": "Genius Tokens Whitepaper 1.0",
+    "type": "White paper",
+    "area": "Distributed systems",
+    "url": "papers/Genius-Tokens-Whitepaper-1.0.pdf",
+    "desc": "An earlier GNUS token and distributed computing white paper."
+  },
+  {
+    "title": "GSM Engineering Outcomes Paper",
+    "type": "Research / design paper",
+    "area": "Software engineering",
+    "url": "https://geniusventures.github.io/gnus.github.io/papers/gsm/",
+    "desc": "Proposed system for collecting software engineering evidence and measuring outcomes. Design, not measured results.",
+    "source": "https://github.com/GeniusVentures/GeniusSoftwareManager/tree/main/docs/arvix-paper"
+  },
+  {
+    "title": "Full Head Mapping Revisited",
+    "type": "Research paper",
+    "area": "Computer graphics",
+    "url": "https://github.com/Super-Genius/full-head-mapping/blob/main/docs/full_head_mapping.pdf",
+    "desc": "Modern reconstruction of multiview photograph projection and multiband texture blending.",
+    "source": "https://github.com/Super-Genius/full-head-mapping"
+  },
+  {
+    "title": "Fake Refraction: Revisiting a 2000 DirectX 7 Approximation",
+    "type": "Research paper",
+    "area": "Computer graphics",
+    "url": "https://github.com/Super-Genius/FakeRefraction/blob/main/Paper/fake_refraction.pdf",
+    "desc": "Revisiting a fast early cubemap refraction method and comparing it with modern rendering.",
+    "source": "https://github.com/Super-Genius/FakeRefraction"
+  },
+  {
+    "title": "Brushed Metal: Packed Dot Products to Anisotropic GGX",
+    "type": "Research paper",
+    "area": "Computer graphics",
+    "url": "https://github.com/Super-Genius/BrushedMetal/blob/main/Paper/brushed_metal.pdf",
+    "desc": "An early packed lighting shader reconstructed and compared with modern anisotropic shading.",
+    "source": "https://github.com/Super-Genius/BrushedMetal"
+  },
+  {
+    "title": "Minnaert Velvet: Lookup Textures to Microfiber Sheen",
+    "type": "LaTeX paper draft",
+    "area": "Computer graphics",
+    "url": "https://github.com/Super-Genius/MinnaertVelvet/blob/main/Paper/minnaert_velvet.tex",
+    "desc": "Research draft on early velvet shading, lookup textures, and modern cloth sheen.",
+    "source": "https://github.com/Super-Genius/MinnaertVelvet"
+  },
+  {
+    "title": "Approximating Refraction (2000)",
+    "type": "Historical article",
+    "area": "Computer graphics",
+    "url": "https://www.realistic3d.com/FakeRefraction.htm",
+    "desc": "Original article documenting an early DirectX-era real-time refraction effect."
+  },
+  {
+    "title": "Full Head Mapping — Original Article",
+    "type": "Historical article",
+    "area": "Computer graphics",
+    "url": "https://www.realistic3d.com/Full_Head_Mapping.htm",
+    "desc": "Original article on using multiple photographs to construct a full head texture."
+  },
+  {
+    "title": "Brushed Metal — Original Article",
+    "type": "Historical article",
+    "area": "Computer graphics",
+    "url": "https://www.realistic3d.com/brushed_metal.htm",
+    "desc": "Original documentation of a compact real-time brushed-metal lighting technique."
+  },
+  {
+    "title": "The Day I Realized I Didn’t Need to Out-Invent Big Tech",
+    "type": "Essay",
+    "area": "Articles",
+    "url": "https://supergeniuschronicles.substack.com/p/the-day-i-realized-i-didnt-need-to",
+    "desc": "Reflections on building distributed computing technology and intellectual property."
+  },
+  {
+    "title": "US Patent 11,451,393 B2 — Distributed General-Purpose Computing with Cryptotoken Payment System",
+    "type": "Granted patent",
+    "area": "Patents",
+    "url": "patents/US11451393-final-patent.pdf",
+    "desc": "US granted patent, issued September 20, 2022. Local copy of the patent as issued.",
+    "source": "https://patents.google.com/patent/US11451393B2/en"
+  }
+]
