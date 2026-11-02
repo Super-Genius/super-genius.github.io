@@ -1,0 +1,60 @@
+name: Build and publish technical papers
+
+on:
+  push:
+    paths:
+      - '.github/workflows/publish-technical-papers.yml'
+      - 'papers-source/payload.part*'
+      - 'papers-source/*.tex'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Install TeX tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends latexmk texlive-latex-extra texlive-pictures texlive-fonts-recommended lmodern
+      - name: Restore original paper sources
+        shell: bash
+        run: |
+          set -euo pipefail
+          if compgen -G 'papers-source/payload.part*' > /dev/null; then
+            cat papers-source/payload.part* | base64 --decode > /tmp/sgpapers_source.tar.gz
+            echo '0c813674e2a7636809edea3675ae64bcfa58d8a8905763d1b6b714fa4314bce0  /tmp/sgpapers_source.tar.gz' | sha256sum --check
+            tar -xzvf /tmp/sgpapers_source.tar.gz -C papers-source
+          fi
+      - name: Build three PDFs
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p papers
+          for tex in papers-source/SG-*.tex; do
+            base=$(basename "$tex" .tex)
+            mkdir -p "/tmp/latex/$base"
+            latexmk -pdf -interaction=nonstopmode -halt-on-error -outdir="/tmp/latex/$base" "$tex"
+            cp "/tmp/latex/$base/$base.pdf" "papers/$base.pdf"
+            pdfinfo "papers/$base.pdf" | grep Pages
+          done
+      - name: Save built PDFs and editable LaTeX
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add papers/SG-*.pdf papers-source/SG-*.tex
+          if compgen -G 'papers-source/payload.part*' > /dev/null; then
+            git rm -- papers-source/payload.part*
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m "Publish three Super-Genius technical papers"
+            git push
+          fi
