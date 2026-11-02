@@ -8,6 +8,27 @@
     "source": "https://gcs.gnus.ai/"
   },
   {
+    "title": "Decentralized Verification of Multiparty Computations Using Elliptic-Curve Aggregation",
+    "type": "Research / design paper",
+    "area": "Distributed systems",
+    "url": "papers/SG-Decentralized-MPC-Verification.pdf",
+    "desc": "Requestor and circuit design for decentralized multiparty aggregation, transaction consistency, elliptic-curve verification, and security limitations."
+  },
+  {
+    "title": "Wallet-Derived Credentials for Privacy-Preserving Crypto-Token Authentication",
+    "type": "Research / design paper",
+    "area": "Cryptography and security",
+    "url": "papers/SG-Private-Token-Authentication.pdf",
+    "desc": "Existing-wallet authentication, deterministic credential derivation, encrypted identities, and zero-knowledge authorization."
+  },
+  {
+    "title": "Zero-Knowledge Transaction Authentication with Append-Only CRDT Credential State",
+    "type": "Research / design paper",
+    "area": "Cryptography and security",
+    "url": "papers/SG-ZK-CRDT-Transaction-Authentication.pdf",
+    "desc": "Privacy-preserving two-factor transaction authentication with proofs, distributed CRDT credential records, and revocation design."
+  },
+  {
     "title": "Genius Cognitive System — White Paper v1.1",
     "type": "White paper",
     "area": "AI and GPU",
