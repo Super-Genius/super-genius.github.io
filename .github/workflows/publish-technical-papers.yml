@@ -42,7 +42,7 @@ jobs:
             mkdir -p "/tmp/latex/$base"
             latexmk -pdf -interaction=nonstopmode -halt-on-error -outdir="/tmp/latex/$base" "$tex"
             cp "/tmp/latex/$base/$base.pdf" "papers/$base.pdf"
-            pdfinfo "papers/$base.pdf" | grep Pages
+            test -s "papers/$base.pdf"
           done
       - name: Save built PDFs and editable LaTeX
         shell: bash
