@@ -100,10 +100,28 @@
   },
   {
     "title": "Approximating Refraction (2000)",
-    "type": "Historical article",
-    "area": "Computer graphics",
-    "url": "https://www.realistic3d.com/FakeRefraction.htm",
-    "desc": "Original article documenting an early DirectX-era real-time refraction effect."
+    "type": "Historical technical paper",
+    "area": "Historical publications",
+    "url": "https://www.realistic3d.com/Documents/Refraction.pdf",
+    "desc": "January 27, 2000 original paper and article on a DirectX 7 approximation of refraction, with a Word document and source demo.",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://www.realistic3d.com/Documents/Refraction.pdf"
+      },
+      {
+        "label": "DOC",
+        "url": "https://www.realistic3d.com/Documents/Refraction.doc"
+      },
+      {
+        "label": "Original article",
+        "url": "https://www.realistic3d.com/FakeRefraction.htm"
+      },
+      {
+        "label": "Source & Demo (ZIP)",
+        "url": "https://www.realistic3d.com/Source/DX7Refract.zip"
+      }
+    ]
   },
   {
     "title": "Full Head Mapping — Original Article",
@@ -147,77 +165,159 @@
     "area": "Historical publications",
     "url": "https://www.realistic3d.com/Documents/hdr.pdf",
     "desc": "October 2004 Extreme Game Developers Expo presentation on high dynamic range images.",
-    "source": "https://www.kennethhurley.com/#publications"
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://www.realistic3d.com/Documents/hdr.pdf"
+      },
+      {
+        "label": "PPT",
+        "url": "https://www.realistic3d.com/Documents/hdr.ppt"
+      }
+    ]
   },
   {
     "title": "Advanced Graphics Techniques Using Vertex and Pixel Shaders",
     "type": "Unfinished paper",
     "area": "Historical publications",
-    "url": "https://www.kennethhurley.com/#publications",
-    "desc": "Historical work-in-progress document on programmable graphics shaders."
+    "url": "https://www.realistic3d.com/Documents/advGraphics.doc",
+    "desc": "Historical work-in-progress document on programmable graphics shaders.",
+    "links": [
+      {
+        "label": "DOC",
+        "url": "https://www.realistic3d.com/Documents/advGraphics.doc"
+      }
+    ]
   },
   {
     "title": "Lighting Techniques Using Cube Maps (Game Programming Gems 3)",
     "type": "Book chapter",
     "area": "Historical publications",
-    "url": "https://www.kennethhurley.com/#publications",
-    "desc": "2002 published chapter coauthored with Dante Treglia and others. Bibliographic reference only."
+    "desc": "2002 Game Programming Gems 3 chapter with Dante Treglia and others. Related cube-map cloud-cover source is available; no public chapter PDF was listed.",
+    "links": [
+      {
+        "label": "Source code (ZIP)",
+        "url": "https://www.realistic3d.com/Source/cc.zip"
+      }
+    ]
   },
   {
     "title": "Photorealistic Faces: 3DS Max How-To",
     "type": "Technical paper",
     "area": "Historical publications",
-    "url": "https://www.kennethhurley.com/#publications",
-    "desc": "Earlier guide to photorealistic face texture techniques, linked from the author's publication list."
+    "url": "https://uploads.strikinglycdn.com/files/5029359b-d2f4-40ec-a53f-d6e1e78c48e8/Photo%20Realistic%20Faces.pdf?id=59835",
+    "desc": "Earlier guide to photorealistic face texture techniques, linked from the author's publication list.",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://uploads.strikinglycdn.com/files/5029359b-d2f4-40ec-a53f-d6e1e78c48e8/Photo%20Realistic%20Faces.pdf?id=59835"
+      }
+    ]
   },
   {
     "title": "Photorealistic Faces Using Vertex and Pixel Shaders (Direct3D ShaderX)",
     "type": "Book chapter",
     "area": "Historical publications",
-    "url": "https://www.kennethhurley.com/#publications",
-    "desc": "2002 chapter coauthored with Wolfgang Engel and others. Bibliographic reference only."
+    "url": "https://www.realtimerendering.com/resources/shaderx/Direct3D.ShaderX.Vertex.and.Pixel.Shader.Tips.and.Tricks_Wolfgang.F.Engel_Wordware.Pub_2002.pdf",
+    "desc": "2002 chapter coauthored with Wolfgang Engel and others. Bibliographic reference only.",
+    "links": [
+      {
+        "label": "PDF of Book",
+        "url": "https://www.realtimerendering.com/resources/shaderx/Direct3D.ShaderX.Vertex.and.Pixel.Shader.Tips.and.Tricks_Wolfgang.F.Engel_Wordware.Pub_2002.pdf"
+      },
+      {
+        "label": "Source code (ZIP)",
+        "url": "https://www.realistic3d.com/Source/Photoface.zip"
+      }
+    ]
   },
   {
     "title": "Extending Textures Beyond Simple Pixels (GDC 2002)",
     "type": "Conference paper",
     "area": "Historical publications",
     "url": "https://www.realistic3d.com/Documents/gdc2002_textureuses.pdf",
-    "desc": "Game Developers Conference presentation, March 21, 2002, on texture-based graphics techniques."
+    "desc": "Game Developers Conference presentation, March 21, 2002, on texture-based graphics techniques.",
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://www.realistic3d.com/Documents/gdc2002_textureuses.pdf"
+      },
+      {
+        "label": "PPT",
+        "url": "https://www.realistic3d.com/Documents/gdc2002_textureuses.ppt"
+      }
+    ]
   },
   {
     "title": "Towards More Photorealistic Faces (2001)",
     "type": "Conference presentation",
     "area": "Historical publications",
-    "url": "https://www.kennethhurley.com/#publications",
-    "desc": "Xtreme Game Developers Conference, September 28, 2001."
+    "url": "https://www.realistic3d.com/Documents/Towards_More_Photorealistic_Faces.ppt",
+    "desc": "Xtreme Game Developers Conference, September 28, 2001.",
+    "links": [
+      {
+        "label": "PPT",
+        "url": "https://www.realistic3d.com/Documents/Towards_More_Photorealistic_Faces.ppt"
+      }
+    ]
   },
   {
     "title": "Lighting Techniques for Games (2001)",
     "type": "Conference presentation",
     "area": "Historical publications",
-    "url": "https://www.kennethhurley.com/#publications",
-    "desc": "Xtreme Game Developers Conference, September 28, 2001."
+    "url": "https://www.realistic3d.com/Documents/Lighting_Techniques_for_Games.ppt",
+    "desc": "Xtreme Game Developers Conference, September 28, 2001.",
+    "links": [
+      {
+        "label": "PPT",
+        "url": "https://www.realistic3d.com/Documents/Lighting_Techniques_for_Games.ppt"
+      }
+    ]
+  },
+  {
+    "title": "OpenGL to DirectX XBOX Porting Guide (2001)",
+    "type": "Internal white paper",
+    "area": "Historical publications",
+    "desc": "NVIDIA internal white paper, July 13, 2001. Bibliographic record; no public document URL is listed."
   },
   {
     "title": "Ultimate Performance for 3D Graphics (Intel Developer Forum, 2000)",
     "type": "Conference presentation",
     "area": "Historical publications",
-    "url": "https://www.kennethhurley.com/#publications",
-    "desc": "July 2000 presentation on maximizing graphics performance."
+    "url": "https://www.realistic3d.com/Documents/presentation-IDF_00.ppt",
+    "desc": "July 2000 presentation on maximizing graphics performance.",
+    "links": [
+      {
+        "label": "PPT",
+        "url": "https://www.realistic3d.com/Documents/presentation-IDF_00.ppt"
+      }
+    ]
   },
   {
     "title": "Cubemaps for GeForce 256: Dispelling the Myths (1999)",
     "type": "Historical white paper",
     "area": "Historical publications",
-    "url": "https://www.kennethhurley.com/#publications",
-    "desc": "December 1999 NVIDIA-era graphics document, listed for historical reference."
+    "url": "https://www.realistic3d.com/Documents/cubemaps.doc",
+    "desc": "December 1999 NVIDIA-era graphics document, listed for historical reference.",
+    "links": [
+      {
+        "label": "DOC",
+        "url": "https://www.realistic3d.com/Documents/cubemaps.doc"
+      }
+    ]
   },
   {
     "title": "NVTUNE: NVIDIA Statistics Driver and Application (1999)",
     "type": "Training presentation",
     "area": "Historical publications",
-    "url": "https://www.kennethhurley.com/#publications",
-    "desc": "April 1999 NVIDIA-era performance tooling presentation, listed for historical reference."
+    "url": "https://www.realistic3d.com/Documents/NVTune1.ppt",
+    "desc": "April 1999 NVIDIA-era performance tooling presentation, listed for historical reference.",
+    "links": [
+      {
+        "label": "PPT",
+        "url": "https://www.realistic3d.com/Documents/NVTune1.ppt"
+      }
+    ]
   },
   {
     "title": "Meta Disaster or Fifth Time's a Charm for VR/AR? (2022)",
